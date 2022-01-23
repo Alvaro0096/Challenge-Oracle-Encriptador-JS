@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #191919;
+}
+
+h2{
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin-bottom: .5em;
+}
+
+.encriptador{
+    margin-bottom: 4em;
+}
+
+.encriptador,
+.mensaje_txt{
+    padding: 1em;
+    background: #e2bb0a;
+    border: .4em solid #402b9c33;
+    border-radius: .4em;
+}
+
+.btn_submit{
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: .3em;
+    color: #fff;
+    background: #191919;
+    border: .2em solid #fff;
+    border-radius: .4em;
+    transition: 1s;
+}
+
+.btn_submit:hover{
+    color: #191919;
+    background: #fff;
+    transition: 1s;
+}
+
+.input_box{
+    font-size: 1em;
+    padding: .3em;
+}
