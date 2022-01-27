@@ -76,3 +76,40 @@ h2,
 .hide{
     display: none;
 }
+
+@media (max-width: 425px){
+
+.encriptador,
+.mensaje_txt{
+    width: 80vw;
+    margin-bottom: 1em;
+    grid-template-rows: repeat(3, 30%);
+    grid-template-columns: repeat(2, 50%);
+    row-gap: .5em;
+    column-gap: .5em;
+    padding: .8em;
+}
+
+h2{
+    font-size: 1.1em;
+}
+
+.input_box{
+    font-size: 1em;
+}
+
+.btn_submit{
+    font-size: .9em;
+    padding: .4em;
+}
+
+}
+
+@media (max-width: 320px){
+
+.btn_submit{
+    font-size: .8em;
+    margin-right: 1em;
+}
+
+}
