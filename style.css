@@ -14,28 +14,48 @@ body{
     background: #191919;
 }
 
-h2{
-    font-size: 1.2em;
-    text-transform: uppercase;
-    margin-bottom: .5em;
-}
-
-.encriptador{
-    margin-bottom: 4em;
-}
-
 .encriptador,
 .mensaje_txt{
+    margin-bottom: 2em;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-rows: repeat(3, 2.5em);
+    grid-template-columns: repeat(2, 50%);
+    row-gap: .5em;
     padding: 1em;
     background: #e2bb0a;
     border: .4em solid #402b9c33;
     border-radius: .4em;
 }
 
-.btn_submit{
-    font-size: 1em;
+h2{
+    font-size: 1.2em;
     text-transform: uppercase;
+    text-align: center;
+}
+
+h2,
+.input_box,
+.btn_cop,
+.txt_span{
+    grid-column: 1 / 3;
+}
+
+.input_box{
+    width: 100%;
+    font-size: 1.2em;
     padding: .3em;
+}
+
+.btn_cop{
+    width: 50%;
+}
+
+.btn_submit{
+    font-size: 1.1em;
+    text-transform: uppercase;
+    padding: .5em;
     color: #fff;
     background: #191919;
     border: .2em solid #fff;
@@ -49,7 +69,10 @@ h2{
     transition: 1s;
 }
 
-.input_box{
-    font-size: 1em;
-    padding: .3em;
+.txt_span{
+    font-size: 1.2em;
+}
+
+.hide{
+    display: none;
 }
